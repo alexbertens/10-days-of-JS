@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( 135deg, #C2FFD8 10%, #465EFB 100%);
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.add {
+    background-color: transparent;
+    border: 2px;
+    border-color: #fff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 2rem auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+
+}
+.note {
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+
+}
+
+.note .tools {
+    background-color: #ccc;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor:pointer;
+
+
+}
+
+.note .main {
+    height: 80%;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    background-color: #eee;
+    
+}
+
+.note textarea {
+    font-family: inherit;
+    border: none;
+    height:80%;
+    width: 100%;
+    outline: none;
+    font-size: 1.2rem;
+
+}
+
+.note .hidden {
+    display: none;
+}
